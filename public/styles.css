@@ -1,11 +1,19 @@
 h1 {
-  color: midnightblue
+  color: midnightblue;
+  background-color: yellow;
 }
 
 body {
   text-align: center;
+  font-family:fantasy; 
+  background-color:aqua
 }
 
 ul {
   list-style-type: none;
+  font-size: larger;
+}
+
+a {
+  background-color:yellow;
 }
