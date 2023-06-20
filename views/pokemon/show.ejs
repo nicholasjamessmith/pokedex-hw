@@ -6,4 +6,8 @@
   <h3>Type:
     <%= pokemon.type %>
   </h3>
+  <a href="/pokemon/<%= index %>/edit" <button>Edit</button></a>
+  <form action="/pokemon/<%= index %>?_method=DELETE" method="post">
+    <input type="submit" value="Delete">
+  </form>
   <a href="/pokemon">Back to all Pokémon</a>
