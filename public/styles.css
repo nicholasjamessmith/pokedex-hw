@@ -5,8 +5,8 @@ h1 {
 
 body {
   text-align: center;
-  font-family:fantasy; 
-  background-color:aqua
+  font-family: fantasy;
+  background-color: aqua
 }
 
 ul {
@@ -15,5 +15,16 @@ ul {
 }
 
 a {
-  background-color:yellow;
+  background-color: yellow;
+}
+
+ul {
+  columns: 3;
+  -webkit-columns: 3;
+  -moz-columns: 3;
+  position: static;
+}
+
+table {
+  vertical-align: top;
 }

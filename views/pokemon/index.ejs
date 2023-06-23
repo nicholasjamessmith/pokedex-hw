@@ -2,14 +2,18 @@
 
   <h1>Pokémon</h1>
   <a href="/pokemon/new">Create New Pokémon</a>
+<table>
   <ul>
     <% pokemon.forEach((pokemon, index)=> { %>
       <!--<a href="/pokemon/<%= index %>">-->
       <li>
-        <%= pokemon.name %>
+        <a href="/pokemon/<%= index %>">
+          <%= pokemon.name %>
+        </a>
       </li>
       <a href="/pokemon/<%= index %>">
         <li><img src="<%= pokemon.img%>"></li>
       </a>
       <% }) %>
   </ul>
+</table>
